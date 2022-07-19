@@ -1,10 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  margin-top: 100px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +31,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Main {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.Post {
+  display: flex;
+  text-align: left;
+  margin: 10px auto;
+  justify-content: center;
+} img {
+  margin-right:5px;
+}
+
+.PostContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.PostList {
+
+}
+
+.detailBody {
+  height: 1000px;
+  width: 100%;
+}.header{
+  display: flex;
+  justify-content: space-between;
 }
